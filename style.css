@@ -16,7 +16,6 @@ body {
 .header .header__link {
   font-family: fantasy, cursive;
 }
-
 @media (max-width:768px) {
   .header { 
     text-align: center;
@@ -86,7 +85,6 @@ input[type="text"] {
 input[type="text"]:focus {
   color: #333;
 }
-
 /* New Task */
 label[for="new-task"] {
   display: block;
@@ -95,7 +93,6 @@ label[for="new-task"] {
 input#new-task {
   width: 318px;
 }
-
 /* Task list */
 li {
   overflow: hidden;
@@ -130,23 +127,19 @@ button.delete img {
 button.delete img:hover {
   transform: rotateZ(0);
 }
-
 /* Completed */
 ul#completed-tasks__list label {
   text-decoration: line-through;
   color: #888;
 }
-
 /* Edit Task */
 ul li input[type=text] {
   display: none;
 }
-
 ul li.edit-mode input[type=text] {
   display: inline-block;
   width: 224px;
 }
-
 ul li.edit-mode label {
   display: none;
 }
