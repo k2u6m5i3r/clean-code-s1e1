@@ -8,13 +8,13 @@
 </head>
 
 <body>
-  <header class="aaa">
+  <header class="header" id="header">
     <img src="./eisenhower-matrix.jpg" alt="picture of logo">
     <a class="more_inf" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
   </header>
-  <main class="centered-main-page-element">
+  <main class="main" id="main">
     <section>
-      <div id="topSectionForAddingElementToList">
+      <div class="add-item" id="add-item">
         <label for="new-task">Add Item</label>
         <div class="task-row-wrapper">
           <input id="new-task" class="task" type="text">
@@ -22,7 +22,7 @@
         </div>
       </div>
     </section>
-    <section>
+    <section class="in-complete-tasks">
       <h3>Todo</h3>
       <ul id="incompleteTasks">
         <li>
@@ -45,7 +45,7 @@
           </li>
       </ul>
     </section>
-    <section>
+    <section class="completed-tasks">
       <h3>Completed</h3>
       <ul id="completed-tasks">
         <li>
